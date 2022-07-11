@@ -3,7 +3,9 @@ import "./App.css";
 import { Header } from './Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Homepage } from './Homepage';
-import ProjectContainer from './ProjectContainer';
+import { ContactUs } from './ContactUs';
+import ProjectContainer from 
+'./ProjectContainer';
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/project" element={<ProjectContainer />} />
-        </Routes>
+          <Route path="/contactus" element={<ContactUs />} />
+        </Routes>        
       </BrowserRouter>
     </div>
   );

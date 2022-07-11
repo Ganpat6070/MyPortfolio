@@ -1,5 +1,6 @@
 .header {
     display: flex;
+  font-size:15px;
     align-items: center;
     height: 8em;
     max-width: 1100px;
@@ -7,41 +8,26 @@
     margin: 0 auto;
     justify-content: space-between;
 }
-
 .menuItems {
     display: flex;
-    align-items: center;
-}
-
+    align-items: center;}
 .navList {
     margin-right: 1.5em;
     display: flex;
-    list-style-type: none;
-}
-
+    list-style-type: none;}
 .navList-item{
     margin-left: 1.5em;
     text-decoration: none;
-}
-
+  font-size:40px;}
 .mainHomePage {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 2em;
-}
-
+    margin-top: 2em;}
 .mainHomePage h1{
-    font-size: 4rem;
-}
-
-.name {
-    color: #2978b5;
-}
-.desc{
-    width: 600px;
-}
-
+    font-size: 4rem;}
+.name {color: #2978b5;}
+.desc{width: 600px;}
 .projectContainer{
     display: flex;
     align-items: center;
@@ -51,7 +37,6 @@
     gap: 10px 20px;
     margin: 0 auto;
 }
-
 .card {
     padding: 13px;
     width: 300px;
@@ -59,28 +44,17 @@
     text-align: center;
     border-radius: 10px;
 }
-
 .skills{
     margin: 3px;
     font-weight: 700;
 }
-
-.skillContainer{
-    margin-bottom: 10px;
-}
-
-.projectLink{
-    margin: 0 10px;
-}
-.sprofile{
- text-align: center;
-}
-.sskills{
- text-align: center;
-}
+.skillContainer{margin-bottom: 10px;}
+.projectLink{margin: 0 10px;}
+.sprofile{text-align: center;}
+.sskills{text-align: center;}
 .line{
   text-align:center;
-  color:blue
+  color: #2978b5;
 }
 .sskills{
   padding:30px;
@@ -90,9 +64,9 @@
     border-radius: 10px;
   text-align:center;
 }
-.sskills h1{
-  color:sandybrown;
-}
-.contact h2{
-  color:lightcoral;
-} 
+.sskills h1{color: #2978b5;}
+.contact h2{color: #2978b5;} 
+.concenter{text-align:center;}
+.contus{color:#2978b5;}
+.line{text-align:center;}
+.box{color:#2978b5;}
